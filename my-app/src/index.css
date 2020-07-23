@@ -1,0 +1,118 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.bg-dark .shadow {
+  box-shadow: 0 0.5rem 1rem rgba(255, 255, 255, 0.25) !important;
+}
+.bg-dark .shadow-sm {
+  box-shadow: 0 0.125rem 0.25rem rgba(255, 255, 255, 0.05) !important;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f8f9fa;
+}
+
+#notfound {
+  position: relative;
+  height: 80vh;
+}
+
+#notfound .notfound {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.notfound {
+  max-width: 767px;
+  width: 100%;
+  line-height: 1.4;
+  padding: 0px 15px;
+}
+
+.notfound .notfound-404 {
+  position: relative;
+  height: 150px;
+  line-height: 150px;
+  margin-bottom: 3rem;
+}
+
+.notfound .notfound-404 h1 {
+  font-size: 186px;
+  font-weight: 900;
+  margin: 0px;
+  text-transform: uppercase;
+  background-size: cover;
+  background-position: center;
+}
+
+.notfound h2 {
+  font-size: 26px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.notfound p {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 0px;
+  text-transform: uppercase;
+}
+
+.notfound a {
+  display: inline-block;
+  text-transform: uppercase;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  background: #5c91fe;
+  padding: 10px 40px;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 1px;
+  margin-top: 15px;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+}
+
+.notfound a:hover {
+  opacity: 0.8;
+}
+
+@media only screen and (max-width: 767px) {
+  .notfound .notfound-404 {
+    height: 110px;
+    line-height: 110px;
+  }
+  .notfound .notfound-404 h1 {
+    font-size: 120px;
+  }
+}
+
+#ex3 .fa-stack[data-count]:after {
+  position: absolute;
+  right: 0%;
+  top: -20%;
+  content: attr(data-count);
+  font-size: 60%;
+  padding: 0.6em;
+  border-radius: 50%;
+  line-height: 0.8em;
+  color: white;
+  background: #ffb300;
+  text-align: center;
+  min-width: 1em;
+  font-weight: bold;
+}
+table img {
+  height: 75px !important;
+  width: 75px !important;
+}

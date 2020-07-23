@@ -1,0 +1,22 @@
+[
+    {
+        "menuLink": "/",
+        "menuLabel": "Home"
+    },
+    {
+        "menuLink": "/products",
+        "menuLabel": "Products"
+    },
+    {
+        "menuLink": "/checkout",
+        "menuLabel": "Checkout"
+    },
+    {
+        "menuLink": "/checkout/1000",
+        "menuLabel": "Checkout (with id)"
+    },
+    {
+        "menuLink": "/test",
+        "menuLabel": "404 Error"
+    }
+]
